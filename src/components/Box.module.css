@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+    margin: 20px 0;
+    padding: 0 15px;
+
+}
+
+div {
+    margin: 20px 0;
+    padding: 0 15px;
+}
+
+input {
+    background-color: whitesmoke;
+    line-height: 20px;
+    width: 60%;
+    margin: 10px 0;
+}
+
+.submit {
+    width: 13%;
+    box-shadow: 3px 3px 0.3px 0.9px black;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 0.3px 0.9px grey;
+    cursor: pointer;
+}
+
+.blocks {;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
